@@ -30,6 +30,19 @@ li:first-letter {
   text-transform: capitalize;
 }
 
+.btn-primary {
+  background-color: #5a6aca;
+  border: none;
+  opacity: 0.9;
+}
+
+.btn-primary:hover {
+  background-color: #ffff;
+  color: #5a6aca;
+  border: 1px solid #5a6aca;
+  opacity: 0.9;
+}
+
 .overview {
   margin-bottom: 20px;
 }
@@ -44,9 +57,14 @@ li:first-letter {
   margin: 30px auto;
 }
 .weather-app {
-  padding: 20px;
-  border: 1px solid #dadde1;
+  background: linear-gradient(
+    109.6deg,
+    rgb(223, 234, 247) 11.2%,
+    rgb(244, 248, 252) 91.1%
+  );
+  border: 1px solid #5a6aca;
   border-radius: 8px;
+  padding: 60px;
 }
 
 .weather-temperature img {
