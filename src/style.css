@@ -47,8 +47,7 @@ li:first-letter {
   margin-bottom: 20px;
 }
 
-.c-units,
-.f-units {
+.units {
   color: #5c5470;
   text-decoration: none;
 }
